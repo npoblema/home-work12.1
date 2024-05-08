@@ -8,11 +8,11 @@ dict_list = [
 ]
 
 
-def filter_dicts_by_state(dict_list: List[Dict[str, str]], state: str = "EXECUTED") -> List[Dict[str, str]]:
-    """a function that accepts a list of dictionaries and the value for the state key as input"""
-    return [dict_ for dict_ in dict_list if dict_.get("state") == state]
+def dicts_by_state(dict_lists: List[Dict[str, int | str]], state: str = "EXECUTED") -> List[Dict[str, int | str]]:
+    """A function that accepts a list of dictionaries and the value for the state key as input"""
+    return [dict_ for dict_ in dict_lists if dict_.get("state") == state]
 
 
-def sort_dicts_by_date(dict_list: List[Dict[str, str]], reverse: bool = True) -> List[Dict[str, str]]:
-    """sorts the list of dictionaries in descending order of date"""
-    return sorted(dict_list, key=lambda x: x["date"], reverse=reverse)
+def sort_dicts_by_date(dict_lists: List[Dict[str, int | str]], reverse: bool = True) -> List[Dict[str, int | str]]:
+    """Sorts the dictionary list in descending order of date"""
+    return sorted(dict_lists, key=lambda x: x["date"], reverse=reverse)
