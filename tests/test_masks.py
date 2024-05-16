@@ -9,7 +9,7 @@ def card_numbers() -> list:
 
 @pytest.fixture
 def account_numbers() -> list:
-    return [("73654108430135874305", "**4305"), ("1234567890123456", "**3456")]
+    return [("73654108430135874305", "**4305    "), ("1234567890123456", "**3456")]
 
 
 @pytest.mark.parametrize(

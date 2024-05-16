@@ -1,19 +1,20 @@
 from src.masks import masks_account, masks_card
 
 
-def mask_card_or_account_number(data: str) -> str:
-    """accepts strings — both the card type and the card number.
-    returns the original strings with encrypted card numbers"""
-    data_split = data.split()
-    if "Счет" in data:
-        return f"Счет {masks_account(data_split[-1])}"
+def masks_of_cards(data: str) -> str:
+    """
+    Функция переиспользует ранее написанные функции
+    и возвращает исходную строку с замаскированным номером карты/счета.fla
+    """
+    right_data = data.split(" ")
+    if right_data[0] == "Счет":
+        return f"Счет {masks_account(right_data[-1])}"
     else:
+        return f'{" ".join(right_data[:-1])} {masks_card(right_data[-1])}'
 
-        return f"{' '.join(data_split[:-1])} {masks_card(data_split[-1])}"
 
+def convert_datetime_to_date(datetime_string: str) -> str:
+    """Функция, которая принимает строку и возвращает строку с датой"""
+    date_parts = datetime_string.split("T")[0].split("-")
+    return f"{date_parts[2]}.{date_parts[1]}.{date_parts[0]}"
 
-def get_new_type_of_date(date: str) -> str:
-    """returns strings with date"""
-    type_of_date = date.split("T")
-    date_ = type_of_date[0].split("-")
-    return f"{date_[2]}.{date_[1]}.{date_[0]}"
