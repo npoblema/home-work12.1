@@ -1,4 +1,5 @@
 import pytest
+
 from src.masks import masks_account, masks_card
 
 

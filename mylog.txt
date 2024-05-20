@@ -1,0 +1,6 @@
+2024-05-20 11:18:06 my_function ok
+2024-05-20 11:18:29 my_function ok
+2024-05-20 11:20:39 my_function ok
+2024-05-20 11:23:57 my_function ok
+2024-05-20 11:24:01 my_function ok
+2024-05-20 11:24:04 my_function ok

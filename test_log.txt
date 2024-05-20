@@ -1,0 +1,12 @@
+2024-05-20 11:18:06 test_function_success_file ok
+2024-05-20 11:18:06 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-20 11:18:29 test_function_success_file ok
+2024-05-20 11:18:29 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-20 11:20:39 test_function_success_file ok
+2024-05-20 11:20:39 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-20 11:23:57 test_function_success_file ok
+2024-05-20 11:23:57 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-20 11:24:01 test_function_success_file ok
+2024-05-20 11:24:01 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-20 11:24:04 test_function_success_file ok
+2024-05-20 11:24:04 test_function_error_file error: ValueError. Inputs: () {}

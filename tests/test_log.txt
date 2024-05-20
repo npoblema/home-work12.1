@@ -1,0 +1,5 @@
+2024-05-20 11:17:50 test_function_success_file ok
+2024-05-20 11:17:55 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-20 11:17:56 test_function_success_file ok
+2024-05-20 11:17:56 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-20 11:24:33 test_function_error_file error: ValueError. Inputs: () {}

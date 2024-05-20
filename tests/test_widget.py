@@ -1,4 +1,5 @@
 import pytest
+
 from src.widget import convert_datetime_to_date, masks_card
 
 

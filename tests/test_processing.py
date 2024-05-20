@@ -1,4 +1,5 @@
 import pytest
+
 from src.processing import dicts_by_state, sort_dicts_by_date
 
 dict_list = [
