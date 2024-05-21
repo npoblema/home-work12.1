@@ -13,7 +13,7 @@ from src.utils import convert_amount_to_rubles, load_transactions_from_json
 )
 @patch("builtins.open", create=True)
 def test_convert_json_file(mock_open: Mock, value: list | dict, expected: list) -> None:
-    mock_file = mock_open.return_value.__enter__.return_value  # Correct this line
+    mock_file = mock_open.return_value.__enter__.return_value
     mock_file.read.return_value = json.dumps(value)
     assert load_transactions_from_json(os.path.join("..", "data", "operations.json")) == expected
     mock_open.assert_called_once_with(os.path.join("..", "data", "operations.json"), "r", encoding="utf-8")
