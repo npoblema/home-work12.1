@@ -9,3 +9,5 @@
 2024-05-21 16:10:51 test_function_success_file ok
 2024-05-21 16:25:43 test_function_success_file ok
 2024-05-21 16:25:43 test_function_error_file error: ValueError. Inputs: () {}
+2024-05-22 13:40:19 test_function_success_file ok
+2024-05-22 13:40:19 test_function_error_file error: ValueError. Inputs: () {}
