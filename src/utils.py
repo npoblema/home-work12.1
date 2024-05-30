@@ -1,10 +1,11 @@
 import json
 import os
 from typing import Dict
-from src.logging import logger_setup
 
 import requests
 from dotenv import load_dotenv
+
+from src.logging import logger_setup
 
 logger = logger_setup()
 
@@ -70,15 +71,9 @@ value = {
     "id": 441945886,
     "state": "EXECUTED",
     "date": "2019-08-26T10:50:58.294041",
-    "operationAmount": {
-        "amount": "31957.58",
-        "currency": {
-            "name": "руб.",
-            "code": "RUB"
-        }
-    },
+    "operationAmount": {"amount": "31957.58", "currency": {"name": "руб.", "code": "RUB"}},
     "description": "Перевод организации",
     "from": "Maestro 1596837868705199",
-    "to": "Счет 64686473678894779589"
+    "to": "Счет 64686473678894779589",
 }
 convert_amount_to_rubles(value)

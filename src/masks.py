@@ -1,4 +1,5 @@
 from src.logging import logger_setup
+
 logger = logger_setup()
 
 
