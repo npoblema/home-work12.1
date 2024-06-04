@@ -46,3 +46,5 @@
 2024-05-22 13:52:00 test_function_error_file error: ValueError. Inputs: () {}
 2024-05-22 13:56:40 test_function_success_file ok
 2024-05-22 13:56:40 test_function_error_file error: ValueError. Inputs: () {}
+2024-06-03 12:17:43 test_function_success_file ok
+2024-06-03 12:17:43 test_function_error_file error: ValueError. Inputs: () {}
