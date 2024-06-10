@@ -49,8 +49,11 @@ def read_excel_file(filename: str) -> Any:
 
 def filter_transactions_by_status(transactions: List[Dict[str, Any]], status: str) -> List[Dict[str, Any]]:
     """Фильтрует список транзакций по статусу."""
-    return [transaction for transaction in transactions if
-            "status" in transaction and transaction["status"].upper() == status.upper()]
+    return [
+        transaction
+        for transaction in transactions
+        if "status" in transaction and transaction["status"].upper() == status.upper()
+    ]
 
 
 def sort_transactions_by_date(transactions: List[Dict[str, Any]], order: str) -> List[Dict[str, Any]]:
