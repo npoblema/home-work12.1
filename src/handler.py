@@ -19,7 +19,7 @@ def categorize_transactions(transactions: List[Dict[str, Any]], categories: Dict
     category_counts = defaultdict(int)
     for transaction in transactions:
         if "description" in transaction:
-            for category, keywords in categories.items():  # Corrected: Iterating through 'categories'
+            for category, keywords in categories.items():
                 if any(keyword.lower() in transaction["description"].lower() for keyword in keywords):
                     category_counts[category] += 1
                     break
