@@ -15,7 +15,7 @@ def search_transactions(all_transactions: List[Dict[str, Any]], search_string: s
 
 
 def categorize_transactions(transactions: List[Dict[str, Any]], categories: Dict[str, List[str]]) -> Dict[str, int]:
-    """Подсчет операций в каждой категории"""
+    """Подсчет операции в каждой категории"""
     category_counts = defaultdict(int)
     for transaction in transactions:
         if "description" in transaction:
