@@ -1,7 +1,7 @@
 import os
 import json
 import re
-from collections import defaultdict
+from collections import Counter
 from typing import Any, Dict, List
 
 
@@ -16,7 +16,7 @@ def search_transactions(all_transactions: List[Dict[str, Any]], search_string: s
 
 def categorize_transactions(transactions: List[Dict[str, Any]], categories: Dict[str, List[str]]) -> Dict[str, int]:
     """Подсчет операции в каждой категории"""
-    category_counts = defaultdict(int)
+    category_counts = Counter()  # Initialize an empty Counter
     for transaction in transactions:
         if "description" in transaction:
             for category, keywords in categories.items():
