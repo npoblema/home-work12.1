@@ -1,5 +1,5 @@
-import os
 import json
+import os
 import re
 from collections import Counter
 from typing import Any, Dict, List
@@ -16,7 +16,7 @@ def search_transactions(all_trans: List[Dict[str, Any]], search_string: str) -> 
 
 def categorize_transactions(transactions: List[Dict[str, Any]], categor: Dict[str, List[str]]) -> Dict[str, int]:
     """Подсчет операции в каждой категории"""
-    category_count = Counter()
+    category_count: Counter[str] = Counter()  # Добавили аннотацию типа
     for transaction in transactions:
         if "description" in transaction:
             for category, keywords in categor.items():
@@ -33,7 +33,7 @@ def read_transactions_from_json(filename: str) -> Any:
         return json.load(file)
 
 
-all_transactions = read_transactions_from_json("C:\\Users\\Student\\PycharmProjects\\skypro\\data\\operations.json")
+all_transactions = read_transactions_from_json("data/operations.json")
 
 categories = {"Перевод": ["Перевод организации", "Перевод частному лицу"]}
 
@@ -54,4 +54,4 @@ test_categories = {
 }
 
 result = categorize_transactions(test_transactions, test_categories)
-print(result)
+# print(result)
