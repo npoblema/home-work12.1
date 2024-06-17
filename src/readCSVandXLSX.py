@@ -1,27 +1,33 @@
-from typing import List
-
+import os
 import pandas as pd
+from typing import Any
 
 
-def read_csv(filename: str) -> list:
-    """Читает file scv и возвращает список"""
-    if filename.endswith(".csv"):
+def read_csv(filename: str) -> Any:
+    """Считывает CSV-файл и возвращает список словарей."""
+    filename = os.path.abspath(filename)
+    try:
         df = pd.read_csv(filename, encoding="utf-8")
-        transactions = df.to_dict(orient="records")
-        return transactions
-    else:
+        return df.to_dict(orient="records")
+    except FileNotFoundError:
+        print(f"Файл '{filename}' не найден. Проверьте путь к файлу.")
+        return []
+    except Exception as e:
+        print(f"Ошибка чтения CSV файла: {e}")
         return []
 
 
-def read_xlsx(filename: str) -> List:
-    """Читает file xlsx и возвращает список"""
-    if filename.endswith(".xlsx"):
-        data = pd.read_excel(filename)
-        return data.to_dict("records")
-    else:
+def read_xlsx(filename: str) -> Any:
+    """Считывает CSV-файл и возвращает список словарей."""
+    filename = os.path.abspath(filename)
+    try:
+        df = pd.read_csv(filename, encoding="utf-8")
+        return df.to_dict(orient="records")
+    except FileNotFoundError:
+        print(f"Файл '{filename}' не найден. Проверьте путь к файлу.")
+        return []
+    except Exception as e:
+        print(f"Ошибка чтения CSV файла: {e}")
         return []
 
 
-print(read_csv("../data/transactions.csv"))
-print(read_xlsx("../data/transactions_excel.xlsx"))
-# Проверка
