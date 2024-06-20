@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 from pandas import DataFrame
 
-from src.readCSVandXLSX import read_csv, read_xlsx
+from src.readCSVandXLSX import read_csv, read_file_from_file_xlsx
 
 
 class TestCSVXLSXReader(unittest.TestCase):
@@ -28,13 +28,13 @@ class TestCSVXLSXReader(unittest.TestCase):
         """Тестирование read_xlsx."""
         mock_data = [{"date": "2022-01-01", "amount": 100.00}, {"date": "2022-02-01", "amount": 200.00}]
         mock_read_excel.return_value = DataFrame(mock_data)
-        result_xlsx = read_xlsx("../data/transactions_excel.xlsx")
+        result_xlsx = read_file_from_file_xlsx("../data/transactions_excel.xlsx")
         self.assertEqual(result_xlsx, mock_data)
 
     def test_read_xlsx_invalid_file(self) -> None:
         """Тест для read_xlsx с неверным типом файла."""
         file_path = "data.txt"
-        transactions = read_xlsx(file_path)
+        transactions = read_file_from_file_xlsx(file_path)
         self.assertEqual(transactions, [])
 
 

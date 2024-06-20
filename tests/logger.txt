@@ -1,1 +1,2 @@
-2024-05-31 14:13:07,002 - utils - INFO - Функция работает успешно!
+2024-06-20 15:05:36,895 - utils - INFO - Function sum_amount completed successfully
+2024-06-20 15:05:37,031 - utils - INFO - Function sum_amount completed successfully

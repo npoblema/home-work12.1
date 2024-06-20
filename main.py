@@ -1,10 +1,11 @@
 import re
+from pathlib import Path
 from typing import Any, Dict, Iterator, List
+
 from src.generators import transaction_descriptions
 from src.handler import search_transactions
 from src.processing import dicts_by_state, sort_dicts_by_date
 from src.readCSVandXLSX import read_csv, read_file_from_file_xlsx
-
 from src.utils import read_transaction_from_file_json, sum_amount
 from src.widget import convert_datetime_to_date, masks_of_cards
 
@@ -15,7 +16,7 @@ def handle_file_selection() -> Any:
 
     if file_type == "1" or file_type == "json":
         print("Обрабатываю JSON-файл...")
-        return read_transaction_from_file_json("data/operations.json")
+        return read_transaction_from_file_json(Path("data/operations.json"))
 
     elif file_type == "2" or file_type == "csv":
         print("Обрабатываю CSV-файл...")
