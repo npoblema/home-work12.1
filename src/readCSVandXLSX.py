@@ -13,7 +13,7 @@ def read_csv(file_path: str) -> Any:
     return poos
 
 
-def read_xlsx(filename: str) -> List[Dict]:
+def read_file_from_file_xlsx(filename: str) -> List[Dict]:
     """Читает file xlsx и возвращает список"""
     data = pd.read_excel(filename)
     return data.to_dict("records")

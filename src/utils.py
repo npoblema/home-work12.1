@@ -1,70 +1,43 @@
 import json
-import os
-from typing import Dict
+from pathlib import Path
+from typing import Any, Dict, List
 
-import requests
-from dotenv import load_dotenv
-
+from src.external_api import get_currency_rate
 from src.logging import logger_setup
 
 logger = logger_setup()
 
-load_dotenv()
-API_KEY = os.getenv("API_KEY")
 
-
-def load_transactions_from_json(file_path: str) -> list[dict]:
-    """
-    Загружает транзакции из JSON-файла.
-    """
+def read_transaction_from_file_json(file_path: Path) -> List[Dict[str, Any]]:
+    """Считывает транзакции из JSON-файла."""
     try:
-        with open(file_path, "r", encoding="utf-8") as f:
+        with open(file_path, encoding="utf-8") as f:
             data = json.load(f)
-            if isinstance(data, list):
-                logger.info("Функция работает успешно!")
-                return data
-            else:
-                logger.error("С функцией что-то не так!")
-                return []
-    except FileNotFoundError:
-        logger.error("Ошибка FileNotFoundError")
-        return []
-    except json.decoder.JSONDecodeError:
-        logger.error("Ошибка чтения файла json")
+        if isinstance(data, list):
+            return data
+        else:
+            return []
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        logger.error(f"Ошибка при чтении JSON-файла: {e}")
         return []
 
 
-def convert_amount_to_rubles(transaction: Dict) -> float:
-    """
-    Преобразует сумму транзакции в рубли (RUB).
-    """
-    currency_code = transaction["operationAmount"]["currency"]["code"]
-    amount = float(transaction["operationAmount"]["amount"])
-
-    if currency_code == "RUB":
-        logger.info("Функция работает успешно!")
-        return amount
+def sum_amount(transaction: Dict[str, Any]) -> float:
+    """Возвращает сумму транзакции в рублях."""
+    total = 0.0
+    operation_sum = transaction.get("operationAmount", {})
+    currency_code = operation_sum.get("currency", {}).get("code", "")
+    amount = float(operation_sum.get("amount", 0.0))
+    if currency_code in ["USD", "EUR"]:
+        rate_to_rub = get_currency_rate(currency_code)
+        total += amount * rate_to_rub
+    elif currency_code == "RUB":
+        total += amount
+        logger.info("Function sum_amount completed successfully")
+        return total
     else:
-        logger.error("С функцией что-то не так!")
-        return get_currency_exchange_rate(currency_code, amount)
-
-
-def get_currency_exchange_rate(from_currency: str, amount: float) -> float:
-    """
-    Получает обменный курс валюты к рублям (RUB) с помощью API.
-    """
-    url = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/{from_currency}"
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
-        rub_rate = data["conversion_rates"]["RUB"]
-        logger.info("Функция работает успешно!")
-        return float(amount * rub_rate)
-    except requests.exceptions.RequestException as e:
-        print(f"Ошибка при получении курса: {e}")
-        logger.error("С функцией что-то не так!")
-        return 0.0
+        logger.error("Something went wrong with the sum_amount function: %(error)s")
+    return total
 
 
 value = {
@@ -76,4 +49,5 @@ value = {
     "from": "Maestro 1596837868705199",
     "to": "Счет 64686473678894779589",
 }
-convert_amount_to_rubles(value)
+
+sum_amount(value)

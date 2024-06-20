@@ -1,34 +1,32 @@
 import re
 from typing import Any, Dict, Iterator, List
-
 from src.generators import transaction_descriptions
 from src.handler import search_transactions
 from src.processing import dicts_by_state, sort_dicts_by_date
-from src.readCSVandXLSX import read_csv, read_xlsx
-from src.utils import convert_amount_to_rubles, load_transactions_from_json
+from src.readCSVandXLSX import read_csv, read_file_from_file_xlsx
+
+from src.utils import read_transaction_from_file_json, sum_amount
 from src.widget import convert_datetime_to_date, masks_of_cards
 
 
 def handle_file_selection() -> Any:
     """предлагает пользователю выбрать тип файла и возвращает обработанные данные."""
+    file_type = input("Введите статус по которому необходимо выполнить фильтрацию: json, csv, xlsx \n").lower()
 
-    while True:
-        file_type = input("Введите статус по которому необходимо выполнить фильтрацию: json, csv, xlsx \n").lower()
+    if file_type == "1" or file_type == "json":
+        print("Обрабатываю JSON-файл...")
+        return read_transaction_from_file_json("data/operations.json")
 
-        if file_type == "1" or file_type == "json":
-            print("Обрабатываю JSON-файл...")
-            return load_transactions_from_json("data/operations.json")
+    elif file_type == "2" or file_type == "csv":
+        print("Обрабатываю CSV-файл...")
+        return read_csv("data/transactions.csv")
 
-        elif file_type == "2" or file_type == "csv":
-            print("Обрабатываю CSV-файл...")
-            return read_csv("data/transactions.csv")
+    elif file_type == "3" or file_type == "xlsx":
+        print("Обрабатываю файл Excel...")
+        return read_file_from_file_xlsx("data/transactions_excel.xlsx")
 
-        elif file_type == "3" or file_type == "xlsx":
-            print("Обрабатываю файл Excel...")
-            return read_xlsx("data/transactions_excel.xlsx")
-
-        else:
-            print("Неверный ввод. Пожалуйста, введите 1, 2 или 3.")
+    else:
+        print("Неверный ввод. Пожалуйста, введите 1, 2 или 3.")
 
 
 def handle_status_filtering(data: List[Dict[Any, Any]]) -> List[Dict[Any, Any]]:
@@ -85,7 +83,7 @@ def print_formatted_transactions(data: List[Dict[Any, Any]]) -> None:
                 print(masks_of_cards(transaction["from"]), "->", masks_of_cards(transaction["to"]))
             else:
                 print(masks_of_cards(transaction["to"]))
-                print(f"Amount: {convert_amount_to_rubles(transaction)} RUB\n")
+                print(f"Amount: {sum_amount(transaction)} RUB. \n")
     else:
         print("Не найдено транзакций, соответствующих вашим критериям фильтрации.")
 

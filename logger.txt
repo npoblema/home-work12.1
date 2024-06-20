@@ -1,177 +1,296 @@
-2024-06-17 13:07:59,667 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:07:59,667 - masks - INFO - Функция masks_account выполнена успешно!
-2024-06-17 13:08:02,211 - utils - INFO - Функция работает успешно!
-2024-06-17 13:08:13,792 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:13,793 - utils - ERROR - С функцией что-то не так!
-2024-06-17 13:08:14,125 - utils - ERROR - С функцией что-то не так!
-2024-06-17 13:08:14,127 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,127 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,128 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,128 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,129 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,129 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,130 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,130 - utils - INFO - Функция работает успешно!
-2024-06-17 13:08:14,131 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,131 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,131 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,132 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,132 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,132 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,132 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,132 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,133 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,133 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,133 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,133 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,133 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,134 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,134 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,134 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,134 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,134 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,134 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,134 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,135 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,135 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,135 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,135 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,135 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,135 - utils - ERROR - С функцией что-то не так!
-2024-06-17 13:08:14,422 - utils - ERROR - С функцией что-то не так!
-2024-06-17 13:08:14,423 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,423 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,423 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,423 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,423 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,423 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,423 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,423 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,423 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,424 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,424 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,424 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,424 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,424 - utils - INFO - Функция работает успешно!
-2024-06-17 13:08:14,424 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,424 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,424 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,424 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,424 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,425 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,425 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,425 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,425 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,425 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,425 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,425 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,425 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,425 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,425 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,425 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,425 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,425 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,426 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,426 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,426 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,426 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,426 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,426 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,426 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,427 - utils - ERROR - С функцией что-то не так!
-2024-06-17 13:08:14,654 - utils - ERROR - С функцией что-то не так!
-2024-06-17 13:08:14,655 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,656 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,656 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,656 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,656 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,656 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,657 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,657 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,657 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,657 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,657 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,657 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,657 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,657 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,658 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,658 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,658 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,658 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,658 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,658 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,658 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,658 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,658 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,658 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - utils - INFO - Функция работает успешно!
-2024-06-17 13:08:14,659 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - utils - INFO - Функция работает успешно!
-2024-06-17 13:08:14,659 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,659 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,659 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,660 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,660 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,660 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,660 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,660 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,660 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,660 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,660 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,660 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,661 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,661 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,661 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,661 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,661 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,661 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,661 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,661 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,661 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,661 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,661 - utils - INFO - Функция работает успешно!
-2024-06-17 13:08:14,662 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,662 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,662 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,662 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,662 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,662 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,662 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,662 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,662 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,662 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,662 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,662 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,663 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,663 - utils - INFO - Функция работает успешно!
-2024-06-17 13:08:14,663 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,663 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,663 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,663 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,663 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,663 - masks - ERROR - С функцией masks_account что-то не так!
-2024-06-17 13:08:14,663 - masks - INFO - Функция masks_card выполнена успешно!
-2024-06-17 13:08:14,663 - masks - INFO - Функция masks_card выполнена успешно!
-3:08:14,663 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:36,341 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:36,341 - masks - INFO - Функция masks_account выполнена успешно!
+2024-06-20 14:50:44,800 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,801 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,801 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,802 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,802 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,802 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,802 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,803 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,803 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,803 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,803 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,803 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,803 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,804 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,804 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,804 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,804 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,804 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,804 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,804 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,804 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,804 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,805 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,805 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,805 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,806 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,806 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,807 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,808 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,809 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,809 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,809 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,809 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,809 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,809 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,809 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,810 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,810 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,810 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,810 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,810 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,810 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,810 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,810 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,810 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,810 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,811 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,811 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,811 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,811 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,811 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,811 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,811 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,811 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,811 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,811 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,811 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,812 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,812 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,812 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,812 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,812 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,812 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,812 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,812 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,812 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,812 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,812 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,812 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,813 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,813 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,813 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,813 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,813 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,813 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,813 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,813 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,813 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,813 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,814 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,814 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,814 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,814 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,814 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,814 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,814 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,814 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,814 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,814 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,815 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,816 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,816 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,816 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,816 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,817 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,817 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,817 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,817 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,817 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,817 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,817 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,817 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,817 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,818 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,819 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,819 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,819 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,819 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,819 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,819 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,819 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,819 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,819 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,819 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,819 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,820 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,821 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,821 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,821 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,821 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,821 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,821 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,821 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,821 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,821 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,821 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,822 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,823 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,823 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,823 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,823 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,823 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,823 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,823 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,823 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,823 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,823 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,823 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,824 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,824 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,825 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,825 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,825 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,825 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,825 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,825 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,825 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,825 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,825 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,825 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,825 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,826 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,826 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,826 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,827 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,827 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,827 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,827 - masks - ERROR - С функцией masks_account что-то не так!
+2024-06-20 14:50:44,827 - utils - ERROR - Something went wrong with the sum_amount function: %(error)s
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!
+но!
+2024-06-20 14:50:44,827 - masks - INFO - Функция masks_card выполнена успешно!

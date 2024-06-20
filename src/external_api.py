@@ -1,4 +1,7 @@
+import json
+import logging
 import os
+from typing import Any
 
 import requests
 from dotenv import load_dotenv
@@ -12,19 +15,14 @@ load_dotenv()
 API_KEY = os.getenv("api_keys")
 
 
-def get_currency_exchange_rate(from_currency: str, amount: float) -> float:
-    """
-    Получает обменный курс валюты к рублям (RUB) с помощью API.
-    """
-    url = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/{from_currency}"
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
-        rub_rate = data["conversion_rates"]["RUB"]
-        logger.info("Функция успешно выполнена!")
-        return float(amount * rub_rate)
-    except requests.exceptions.RequestException as e:
-        logger.error("С функцией что-то не так!")
-        print(f"Ошибка при получении курса: {e}")
-        return 0.0
+def get_currency_rate(currency: Any) -> Any:
+    """Получает курс валюты от API и возвращает его в виде float"""
+    url = f"https://api.apilayer.com/exchangerates_data/latest?symbols=RUB&base={currency}"
+    response = requests.get(url, headers={"apikey": API_KEY}, timeout=15)
+    response_data = json.loads(response.text)
+    rate = response_data["rates"]["RUB"]
+    if rate:
+        logging.info("Функция get_currency_rate выполнена успешно")
+    else:
+        logging.error("С функцией get_currency_rate что-то пошло не так: %(error)s")
+    return rate
